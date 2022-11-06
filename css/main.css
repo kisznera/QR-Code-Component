@@ -1,0 +1,70 @@
+/* CSS style  by Antal Kiszner*/
+
+/*========= Import Google FONT =========== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --light-gray: hsl(212, 45%, 89%);
+    --white: hsl(0, 0%, 100%);
+    --graylish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    --container-width-mobile: 375px;
+    --container-width-desktop: 1440px;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--light-gray);
+    color: var(--dark-blue);
+}
+
+p {
+    font-size: 15px;
+    color: var(--graylish-blue);
+}
+
+.container {
+    width: 320px;
+    margin: 10rem auto;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 1.3rem;
+    box-shadow: 1px 10px 21px -2px rgba(130,130,130,0.5);
+    -webkit-box-shadow: 1px 10px 21px -2px rgba(130,130,130,0.5);
+    -moz-box-shadow: 1px 10px 21px -2px rgba(130,130,130,0.5);
+}
+
+.img {
+    border-radius: 1rem;
+    max-width: 100%;
+}
+
+.text {
+    text-align: center;
+    max-width: 100%;
+    padding: .4rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+}
+
+p {
+    padding: 10px 10px;
+    margin-bottom: .9rem;
+    font-weight: 400;
+}
