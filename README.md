@@ -2,4 +2,4 @@
 This is a qr code preview component
 
 # QR code details
-Ez egy QR kód komponens amely egy qr kódot állít elő 1
+Ez egy QR kód komponens amely egy qr kódot állít elő 12
